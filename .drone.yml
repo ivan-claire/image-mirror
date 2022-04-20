@@ -25,9 +25,6 @@ steps:
       - cat images-list | dapper
     settings:
       custom_dns: 1.1.1.1
-    when:
-      event:
-        - push
 
 volumes:
   - name: docker
